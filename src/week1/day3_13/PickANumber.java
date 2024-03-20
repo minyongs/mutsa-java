@@ -14,12 +14,8 @@ public class PickANumber {
           if(c){
               break;
           }
-
-
       }
-
     }
-
     static int comPick(){
         int n = (int)(Math.random()*101);
         return n;
