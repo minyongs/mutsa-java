@@ -29,12 +29,12 @@ public class PlayGame {
                 cnt++;
             }
         }
-
+        System.out.println("=========================================추첨 결과===============================================");
         System.out.println("당신이 선택한 번호는" + Arrays.toString(userNum) + "입니다.");
         System.out.println("로또생성기가 선택한 번호는" + Arrays.toString(lottoNum) + "입니다.");
 
 
-        switch (cnt){
+        switch (cnt) {
             case 0:
                 System.out.println("하나도 못맞추셨네요.. 다음 기회에");
                 break;
@@ -59,7 +59,7 @@ public class PlayGame {
                 System.out.println("1등!!!!!!!!!!!!!!!!!!!!");
                 break;
         }
-
+        System.out.println("================================================================================================");
 
     }
 }
